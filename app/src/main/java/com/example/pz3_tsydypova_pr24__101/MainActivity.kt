@@ -13,6 +13,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.pz3_tsydypova_pr24__101.ui.theme.PZ3_Tsydypova_PR24__101Theme
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.Image
+import androidx.compose.ui.res.painterResource
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -36,11 +38,17 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     Column(
         modifier = modifier
     ) {
+        Image(
+            painter = painterResource(id = R.drawable.logo),
+            contentDescription = "Batman logo"
+        )
+
         Text(
             text = "Hello, $name!"
         )
+
         Text(
-            text = "Git Practice"
+            text = "Git Practice — Session Project"
         )
     }
 }

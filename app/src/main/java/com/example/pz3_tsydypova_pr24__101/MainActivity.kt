@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             PZ3_Tsydypova_PR24__101Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "Git Practice",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }

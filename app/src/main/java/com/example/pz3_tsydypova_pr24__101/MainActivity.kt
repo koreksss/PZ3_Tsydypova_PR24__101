@@ -62,4 +62,5 @@ fun GreetingPreview() {
     PZ3_Tsydypova_PR24__101Theme {
         Greeting("Android")
     }
+
 }
